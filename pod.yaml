@@ -4,10 +4,10 @@ metadata:
   name: helloworld
 spec:
   containers:
+  - name: helloworld
+    image: soumyadeep90014842/helloworld:1.0.0
     env:
     - name: SECRET
       value: "This is the secret from pod spec"
-  - name: helloworld
-    image: soumyadeep90014842/helloworld:1.0.0
     ports:
     - containerPort: 8081
