@@ -6,7 +6,7 @@ spec:
   containers:
     env:
       - name: SECRET
-        value: This is the secret from pod spec
+        value: "This is the secret from pod spec"
   - name: helloworld
     image: soumyadeep90014842/helloworld:1.0.0
     ports:
